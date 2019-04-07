@@ -1,5 +1,5 @@
 import subprocess
-import os, fname
+import os, fnmatch
 
 # Convert images (jpg, png, etc.) to webp format using imagemagick.
 
