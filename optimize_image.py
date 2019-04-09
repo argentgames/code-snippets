@@ -31,7 +31,7 @@ def convert_img(filepath):
         else:
             print("FAILED TO CONVERT: {}".format(filepath))
             
-if__name__== "__main__":
+if __name__ == "__main__":
     img_folders = ["game/images/Backgrounds", "game/images/CG", "game/images/Sprites"]
     exts = ["*.png", "*.jpg"]
     for ext in exts:
